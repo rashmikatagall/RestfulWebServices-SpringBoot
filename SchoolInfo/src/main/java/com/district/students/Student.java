@@ -8,12 +8,15 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+
+import org.springframework.hateoas.RepresentationModel;
+
 import com.district.schools.school;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
 @Table(name = "STUDENTS")
-public class Student {
+public class Student extends RepresentationModel<Student>{
 
 	@Id
 	private int id;

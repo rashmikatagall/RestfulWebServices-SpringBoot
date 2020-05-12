@@ -1,0 +1,115 @@
+2020-05-07 10:49:28,433 INFO org.springframework.boot.StartupInfoLogger [main] Starting SchoolInfoApplication on LAPTOP-NOTJ1IF2 with PID 15100 (C:\Users\RASHMI\Documents\workspace-spring-tool-suite\SchoolInfo\target\classes started by RASHMI in C:\Users\RASHMI\Documents\workspace-spring-tool-suite\SchoolInfo)
+2020-05-07 10:49:28,470 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-05-07 10:49:30,987 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-07 10:49:31,277 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 249ms. Found 4 JPA repository interfaces.
+2020-05-07 10:49:33,572 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-05-07 10:49:33,606 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-07 10:49:33,607 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-05-07 10:49:33,608 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-07 10:49:33,923 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-05-07 10:49:33,924 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5267 ms
+2020-05-07 10:49:34,947 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-07 10:49:35,383 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-07 10:49:36,002 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-07 10:49:36,413 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-05-07 10:49:37,018 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-05-07 10:49:37,106 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-05-07 10:49:39,485 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-07 10:49:39,513 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-07 10:49:40,894 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-07 10:49:41,793 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e9a10cd, org.springframework.security.web.context.SecurityContextPersistenceFilter@605c7a9e, org.springframework.security.web.header.HeaderWriterFilter@2aa6bbad, org.springframework.security.web.authentication.logout.LogoutFilter@8432469, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1999149e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@d16209e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d0114c0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6ea66c33, org.springframework.security.web.session.SessionManagementFilter@2ef041bb, org.springframework.security.web.access.ExceptionTranslationFilter@3356ff58, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@49190ed6]
+2020-05-07 10:49:43,074 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-07 10:49:44,740 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-05-07 10:49:45,305 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-07 10:49:45,318 INFO org.springframework.boot.StartupInfoLogger [main] Started SchoolInfoApplication in 18.391 seconds (JVM running for 20.04)
+2020-05-07 10:52:52,818 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-07 10:52:52,821 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-05-07 10:52:52,976 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 155 ms
+2020-05-07 10:52:54,787 TRACE com.district.schools.schoolController [http-nio-8080-exec-2] Get schools called
+2020-05-07 10:52:54,788 TRACE com.district.schools.schoolService [http-nio-8080-exec-2] getAllSchools >> Fetching all schools
+2020-05-07 10:52:54,894 TRACE com.district.schools.schoolService [http-nio-8080-exec-2] getAllSchools << 1schools fecthed
+2020-05-07 10:53:26,133 TRACE com.district.schools.schoolController [http-nio-8080-exec-3] Get schools called
+2020-05-07 10:53:26,135 TRACE com.district.schools.schoolService [http-nio-8080-exec-3] getAllSchools >> Fetching all schools
+2020-05-07 10:53:26,143 TRACE com.district.schools.schoolService [http-nio-8080-exec-3] getAllSchools << 1schools fecthed
+2020-05-07 10:55:52,143 TRACE com.district.schools.schoolController [http-nio-8080-exec-8] Adding school: Wyandot Elementary com.district.address.Address@499b3d08
+2020-05-07 10:55:52,145 TRACE com.district.schools.schoolService [http-nio-8080-exec-8] addSchool >> schl - Wyandot Elementary
+2020-05-07 10:55:52,528 TRACE com.district.schools.schoolService [http-nio-8080-exec-8] addSchool << schl added 
+2020-05-07 10:56:11,190 TRACE com.district.schools.schoolController [http-nio-8080-exec-9] Get schools called
+2020-05-07 10:56:12,084 TRACE com.district.schools.schoolService [http-nio-8080-exec-9] getAllSchools >> Fetching all schools
+2020-05-07 10:56:12,103 TRACE com.district.schools.schoolService [http-nio-8080-exec-9] getAllSchools << 2schools fecthed
+2020-05-07 10:56:18,072 TRACE com.district.schools.schoolController [http-nio-8080-exec-10] Get school by Id called
+2020-05-07 10:56:18,076 TRACE com.district.schools.schoolService [http-nio-8080-exec-10] getSchoolById >> schoolId - 2
+2020-05-07 10:56:18,087 TRACE com.district.schools.schoolService [http-nio-8080-exec-10] getSchoolById << schl fecthed Scottish Elementary
+2020-05-07 10:56:22,095 TRACE com.district.schools.schoolController [http-nio-8080-exec-1] Get students by school Id - 2 called
+2020-05-07 10:56:22,096 TRACE com.district.students.StudentService [http-nio-8080-exec-1] getStudentsBySchId >> schoolId - 2
+2020-05-07 10:56:23,369 TRACE com.district.students.StudentService [http-nio-8080-exec-1] getStudentsBySchId << 1 students fecthed
+2020-05-07 10:56:32,449 TRACE com.district.schools.schoolController [http-nio-8080-exec-2] Get students by school Id - 2 called
+2020-05-07 10:56:32,451 TRACE com.district.students.StudentService [http-nio-8080-exec-2] getStudentsBySchId >> schoolId - 2
+2020-05-07 10:56:32,455 TRACE com.district.students.StudentService [http-nio-8080-exec-2] getStudentsBySchId << 1 students fecthed
+2020-05-07 10:57:49,427 TRACE com.district.schools.schoolController [http-nio-8080-exec-7] Adding student to schoolId - 4
+2020-05-07 10:57:49,429 TRACE com.district.students.StudentService [http-nio-8080-exec-7] addStudent >> schoolId - 4
+2020-05-07 10:57:50,481 TRACE com.district.students.StudentService [http-nio-8080-exec-7] addStudent << student saved
+2020-05-07 10:57:50,482 TRACE com.district.schools.schoolService [http-nio-8080-exec-7] updateStudentCount >> increasing student count by 1
+2020-05-07 10:57:50,962 TRACE com.district.schools.schoolService [http-nio-8080-exec-7] updateStudentCount << student count updated for Wyandot Elementary
+2020-05-07 10:57:56,314 TRACE com.district.schools.schoolController [http-nio-8080-exec-5] Get students by school Id - 2 called
+2020-05-07 10:57:56,315 TRACE com.district.students.StudentService [http-nio-8080-exec-5] getStudentsBySchId >> schoolId - 2
+2020-05-07 10:57:56,320 TRACE com.district.students.StudentService [http-nio-8080-exec-5] getStudentsBySchId << 1 students fecthed
+2020-05-07 10:58:01,600 TRACE com.district.schools.schoolController [http-nio-8080-exec-8] Get students by school Id - 4 called
+2020-05-07 10:58:01,601 TRACE com.district.students.StudentService [http-nio-8080-exec-8] getStudentsBySchId >> schoolId - 4
+2020-05-07 10:58:01,606 TRACE com.district.students.StudentService [http-nio-8080-exec-8] getStudentsBySchId << 1 students fecthed
+2020-05-07 10:58:11,024 TRACE com.district.schools.schoolController [http-nio-8080-exec-9] Get schools called
+2020-05-07 10:58:11,025 TRACE com.district.schools.schoolService [http-nio-8080-exec-9] getAllSchools >> Fetching all schools
+2020-05-07 10:58:11,035 TRACE com.district.schools.schoolService [http-nio-8080-exec-9] getAllSchools << 2schools fecthed
+2020-05-07 11:03:40,685 TRACE com.district.schools.schoolController [http-nio-8080-exec-2] Get schools called
+2020-05-07 11:03:40,688 TRACE com.district.schools.schoolService [http-nio-8080-exec-2] getAllSchools >> Fetching all schools
+2020-05-07 11:03:40,702 TRACE com.district.schools.schoolService [http-nio-8080-exec-2] getAllSchools << 2schools fecthed
+2020-05-07 11:04:06,949 TRACE com.district.schools.schoolController [http-nio-8080-exec-4] Get schools called
+2020-05-07 11:04:06,950 TRACE com.district.schools.schoolService [http-nio-8080-exec-4] getAllSchools >> Fetching all schools
+2020-05-07 11:04:06,960 TRACE com.district.schools.schoolService [http-nio-8080-exec-4] getAllSchools << 2schools fecthed
+2020-05-07 11:04:58,496 TRACE com.district.schools.schoolController [http-nio-8080-exec-5] Adding student to schoolId - 4
+2020-05-07 11:04:58,497 TRACE com.district.students.StudentService [http-nio-8080-exec-5] addStudent >> schoolId - 4
+2020-05-07 11:04:58,619 TRACE com.district.students.StudentService [http-nio-8080-exec-5] addStudent << student saved
+2020-05-07 11:04:58,620 TRACE com.district.schools.schoolService [http-nio-8080-exec-5] updateStudentCount >> increasing student count by 1
+2020-05-07 11:04:58,901 TRACE com.district.schools.schoolService [http-nio-8080-exec-5] updateStudentCount << student count updated for Wyandot Elementary
+2020-05-07 11:05:04,412 TRACE com.district.schools.schoolController [http-nio-8080-exec-8] Get schools called
+2020-05-07 11:05:04,413 TRACE com.district.schools.schoolService [http-nio-8080-exec-8] getAllSchools >> Fetching all schools
+2020-05-07 11:05:04,426 TRACE com.district.schools.schoolService [http-nio-8080-exec-8] getAllSchools << 2schools fecthed
+2020-05-07 11:05:18,859 TRACE com.district.schools.schoolController [http-nio-8080-exec-9] Get students by school Id - 4 called
+2020-05-07 11:05:18,861 TRACE com.district.students.StudentService [http-nio-8080-exec-9] getStudentsBySchId >> schoolId - 4
+2020-05-07 11:05:18,967 TRACE com.district.students.StudentService [http-nio-8080-exec-9] getStudentsBySchId << 2 students fecthed
+2020-05-07 12:50:50,641 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=42m43s368ms696µs900ns).
+2020-05-07 13:37:57,929 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m7s182ms120µs700ns).
+2020-05-07 14:48:13,732 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h3m45s793ms583µs800ns).
+2020-05-07 17:03:13,679 INFO org.springframework.boot.StartupInfoLogger [main] Starting SchoolInfoApplication on LAPTOP-NOTJ1IF2 with PID 10044 (C:\Users\RASHMI\Documents\workspace-spring-tool-suite\SchoolInformation\target\classes started by RASHMI in C:\Users\RASHMI\Documents\workspace-spring-tool-suite\SchoolInformation)
+2020-05-07 17:03:13,689 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-05-07 17:03:15,961 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-07 17:03:16,275 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 290ms. Found 4 JPA repository interfaces.
+2020-05-07 17:03:18,849 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-05-07 17:03:18,891 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-07 17:03:18,893 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-05-07 17:03:18,894 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-07 17:03:19,213 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-05-07 17:03:19,214 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5411 ms
+2020-05-07 17:03:19,737 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-07 17:03:20,174 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-07 17:03:20,727 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-07 17:03:21,163 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-05-07 17:03:21,773 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-05-07 17:03:21,860 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-05-07 17:03:24,398 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-07 17:03:24,417 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-07 17:03:25,603 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-07 17:03:26,154 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6a6d1ff3, org.springframework.security.web.context.SecurityContextPersistenceFilter@64dfb31d, org.springframework.security.web.header.HeaderWriterFilter@46ea78f0, org.springframework.security.web.authentication.logout.LogoutFilter@1552da16, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@41e8d917, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17b6ad97, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32dcfeea, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64b73e0a, org.springframework.security.web.session.SessionManagementFilter@35dcd032, org.springframework.security.web.access.ExceptionTranslationFilter@667797f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ef1c3f7]
+2020-05-07 17:03:26,546 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-07 17:03:27,129 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-05-07 17:03:27,258 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-07 17:03:27,340 INFO org.springframework.boot.StartupInfoLogger [main] Started SchoolInfoApplication in 15.097 seconds (JVM running for 16.122)
+2020-05-07 17:03:33,744 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-07 17:03:33,745 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-05-07 17:03:33,765 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 19 ms
+2020-05-07 17:03:34,804 TRACE com.district.schools.schoolController [http-nio-8080-exec-1] Get students by school Id - 4 called
+2020-05-07 17:03:34,810 TRACE com.district.students.StudentService [http-nio-8080-exec-1] getStudentsBySchId >> schoolId - 4
+2020-05-07 17:03:34,874 TRACE com.district.students.StudentService [http-nio-8080-exec-1] getStudentsBySchId << 2 students fecthed
+2020-05-07 17:03:40,796 TRACE com.district.schools.schoolController [http-nio-8080-exec-3] Get schools called
+2020-05-07 17:03:40,797 TRACE com.district.schools.schoolService [http-nio-8080-exec-3] getAllSchools >> Fetching all schools
+2020-05-07 17:03:40,892 TRACE com.district.schools.schoolService [http-nio-8080-exec-3] getAllSchools << 2schools fecthed

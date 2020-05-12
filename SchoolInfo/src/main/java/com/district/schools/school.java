@@ -15,10 +15,11 @@ import org.hibernate.annotations.NotFound;
 import org.hibernate.annotations.NotFoundAction;
 
 import com.district.address.Address;
+import org.springframework.hateoas.RepresentationModel;
 
 @Entity
 @Table(name = "SCHOOLS")
-public class school {
+public class school extends RepresentationModel<school>{
 	
 	@Id @GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
