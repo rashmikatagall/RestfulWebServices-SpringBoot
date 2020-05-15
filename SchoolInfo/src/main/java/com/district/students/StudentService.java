@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.district.schools.schoolDB;
+import com.district.teachers.TeacherDb;
 
 @Service
 public class StudentService {
@@ -19,6 +20,9 @@ public class StudentService {
 	
 	@Autowired
 	private schoolDB schoolDb;
+	
+	@Autowired
+	private TeacherDb teacherDb;
 	
 	Logger logger = LoggerFactory.getLogger(StudentService.class);
 	
@@ -37,7 +41,9 @@ public class StudentService {
 	public void addStudent(Student student, int schoolId) {
 		logger.trace("addStudent >> schoolId - " + schoolId );
 		student.setSchl(schoolDb.findById(schoolId).get());
+		student.setTeacher(teacherDb.findById(student.getTeacherId()).get());
 		studentDB.save(student);
+		teacherDb.findById(student.getTeacherId()).get().getStudentSet().add(student);
 		logger.trace("addStudent << student saved" );
 		
 	}

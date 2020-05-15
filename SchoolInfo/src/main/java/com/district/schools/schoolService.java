@@ -65,6 +65,15 @@ public class schoolService {
 		schoolDb.save(schl);
 		logger.trace("updateStudentCount << student count updated for " + schl.getName());
 	}
+
+	public void updateTeacherCount(int schoolId, int i) {
+		logger.trace("updateTeacherCount >> increasing teacher count by "+i);
+		school schl = schoolDb.findById(schoolId).get();
+		schl.setTeachers(schl.getTeachers()+i);
+		schoolDb.save(schl);
+		logger.trace("updateTeacherCount << v count updated for " + schl.getName());
+		
+	}
 	
 	
 

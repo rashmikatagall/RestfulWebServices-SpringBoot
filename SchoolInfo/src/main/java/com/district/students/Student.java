@@ -9,9 +9,12 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
+import org.hibernate.annotations.NotFound;
+import org.hibernate.annotations.NotFoundAction;
 import org.springframework.hateoas.RepresentationModel;
 
 import com.district.schools.school;
+import com.district.teachers.Teacher;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
@@ -25,7 +28,26 @@ public class Student extends RepresentationModel<Student>{
 	@JoinColumn(name ="SCHOOL_ID")
 	@JsonIgnore
 	private school schl;
+	@ManyToOne
+	@JoinColumn(name ="TEACHERS_ID")
+	@NotFound(action = NotFoundAction.IGNORE)
+
+	private Teacher teacher;
 	
+	private int teacherId;
+	
+	public int getTeacherId() {
+		return teacherId;
+	}
+	public void setTeacherId(int teacherId) {
+		this.teacherId = teacherId;
+	}
+	public Teacher getTeacher() {
+		return teacher;
+	}
+	public void setTeacher(Teacher teacher) {
+		this.teacher = teacher;
+	}
 	public int getId() {
 		return id;
 	}
